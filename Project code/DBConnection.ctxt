@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=DBConnection
+comment0.text=\r\n\ Manages\ the\ MySQL\ connection\ for\ the\ F1\ Tracker.\r\n\ Reads\ credentials\ from\ db.properties\ (never\ hard-code\ passwords).\r\n
+comment1.params=
+comment1.target=java.sql.Connection\ getConnection()
+comment2.params=
+comment2.target=void\ closeConnection()
+comment3.params=
+comment3.target=void\ createSchema()
+comment4.params=filename
+comment4.target=java.io.File\ findFile(java.lang.String)
+comment5.params=
+comment5.target=java.util.Properties\ loadProperties()
+numComments=6
